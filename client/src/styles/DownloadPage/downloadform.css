@@ -1,0 +1,51 @@
+.download__form {
+  padding-block: 5rem;
+  gap: 2rem;
+}
+
+.download__form > input {
+  margin: 0 auto;
+  padding: 1rem;
+  outline: none;
+  width: min(100%, 800px);
+  border: 1px solid var(--background-color-3);
+  border-radius: 1rem;
+  background-color: var(--background-color-2);
+  color: var(--text-color-1);
+}
+
+.download__form > .group {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.download__form > .group > .group__button {
+  width: min(100%, 150px);
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid var(--background-color-3);
+  background-color: var(--text-color-1);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.download__form > .group > .group__button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.download__form > .group > .group__button > svg {
+  width: 1.2rem;
+  height: auto;
+}
+
+.download__form > .group > .group__button > svg * {
+  color: var;
+  background-color: var(--background-color-3);
+}
+
+.download__form > .group > .group__button:not(:disabled, .select):hover {
+  background-color: var(--text-color-2);
+}

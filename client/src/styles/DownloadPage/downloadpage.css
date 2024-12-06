@@ -1,0 +1,21 @@
+.download__page > .download__page__text {
+  gap: 2rem;
+}
+
+.download__page > .download__page__text > h1 {
+  color: var(--text-color-1);
+  line-height: 1;
+  margin: 0 auto;
+  width: min(100%, 500px);
+  font-size: clamp(2.5rem, 10vw, 4.5rem);
+  text-align: center;
+}
+
+.download__page > .download__page__text > p {
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  width: min(100%, 500px);
+  font-size: clamp(0.75rem, 3vw, 1rem);
+  text-align: center;
+}

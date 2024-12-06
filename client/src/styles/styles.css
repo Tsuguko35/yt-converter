@@ -1,0 +1,83 @@
+:root {
+  --background-color-1: #161616;
+  --background-color-2: #1b1b1b;
+  --background-color-3: #4a4a4a;
+  --text-color-1: #ffffff;
+  --text-color-2: #cccccc;
+  --text-color-3: #6b6b6c;
+  --text-color-4: #919191;
+}
+
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-family: "PPNeueMontreal", sans-serif;
+  scrollbar-width: none;
+  scrollbar-color: var(--background-color-3) var(--background-color-2);
+}
+
+::selection {
+  background: var(--background-color-3);
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background-color-1);
+  min-height: 100dvh;
+  font-family: "PPNeueMontreal", sans-serif;
+}
+
+.container {
+  width: min(100%, 1500px);
+  padding-block: 5rem;
+  padding-inline: 1rem;
+  margin: 0 auto;
+}
+
+.full__w {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex__column {
+  flex-direction: column;
+}
+
+.justify__center {
+  justify-content: center;
+}
+
+.alight__center {
+  align-items: center;
+}

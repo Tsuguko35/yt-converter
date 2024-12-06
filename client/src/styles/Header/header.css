@@ -1,0 +1,12 @@
+.header {
+  width: min(100%, 1720px);
+  margin: 0 auto;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+}
+
+.header > .header__logo {
+  width: 4rem;
+  height: auto;
+  object-fit: contain;
+}
